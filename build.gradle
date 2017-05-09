@@ -25,7 +25,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-	compile 'org.webjars:bootstrap:4.0.0-alpha.6-1'
+	compile 'org.webjars:bootstrap:3.3.7-1'
 	compile 'org.webjars:jquery:3.2.0'
 	runtime ('org.apache.tomcat.embed:tomcat-embed-jasper')
 }
