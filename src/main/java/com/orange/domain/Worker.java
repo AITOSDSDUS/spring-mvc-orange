@@ -9,6 +9,14 @@ public class Worker {
 	private int departmentId;
 	private int role;
 	
+	public Worker() {
+		this.firstName = "";
+		this.lastName = "";
+		this.salary = 0;
+		this.departmentId = -1;
+		this.role = -1;
+	}
+	
 	public Worker(int workerId, String firstName, String lastName, float salary, int departmentId, int role) {
 		super();
 		this.workerId = workerId;
