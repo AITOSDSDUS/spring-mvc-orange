@@ -7,6 +7,6 @@ import com.orange.domain.Worker;
 public interface WorkerRepository {
 	
 	List<Worker> getAllWorkers();
-	boolean addWorker(Worker worker);
+	void addWorker(Worker worker);
 	
 }
